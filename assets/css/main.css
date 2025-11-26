@@ -2625,7 +2625,7 @@ h3 {
 /* Resize large project images */
 .project-img {
     width: 100%;
-    height: 220px;     /* you can change this */
+    height: 100px;     /* you can change this */
     object-fit: cover;
     border-radius: 8px;
 }
