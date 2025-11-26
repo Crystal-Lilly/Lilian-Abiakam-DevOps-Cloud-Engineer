@@ -2578,3 +2578,13 @@ h3 {
 #projects header p {
     color: #e6e6e6 !important;
 }
+/* FIX: Project descriptions inside white cards */
+.box.style2 p {
+    color: #333333 !important;   /* dark grey for readability */
+}
+
+/* FIX: Small bottom text "More projects coming soon..." */
+#projects footer p,
+.wrapper.style3 footer p {
+    color: #cccccc !important;   /* brighter grey, not faint */
+}
