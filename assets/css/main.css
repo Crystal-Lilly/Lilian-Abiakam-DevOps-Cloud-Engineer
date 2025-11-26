@@ -2588,3 +2588,19 @@ h3 {
 .wrapper.style3 footer p {
     color: #cccccc !important;   /* brighter grey, not faint */
 }
+/* FIX faint project descriptions inside white cards */
+.box.style2 p {
+    color: #333 !important;      /* dark grey */
+    opacity: 1 !important;       /* remove faded look */
+}
+
+/* FIX faint small text lines inside cards */
+.box.style2 {
+    color: #333 !important;
+}
+
+/* Fix "More projects coming soon..." text */
+.wrapper.style3 footer p {
+    color: #cccccc !important;
+    opacity: 1 !important;
+}
