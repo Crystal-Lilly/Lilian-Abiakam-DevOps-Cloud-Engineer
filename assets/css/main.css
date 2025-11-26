@@ -2604,3 +2604,19 @@ h3 {
     color: #cccccc !important;
     opacity: 1 !important;
 }
+/* Fix faint project descriptions */
+.wrapper.style3 .box.style2 p {
+    color: #222 !important;      /* darker grey */
+    opacity: 1 !important;       /* remove fading */
+}
+
+/* Fix any span text inside those boxes */
+.wrapper.style3 .box.style2 span {
+    color: #222 !important;
+    opacity: 1 !important;
+}
+
+/* Fix entire box text color just in case */
+.wrapper.style3 .box.style2 {
+    color: #222 !important;
+}
