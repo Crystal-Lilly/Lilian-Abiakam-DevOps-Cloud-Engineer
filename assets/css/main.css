@@ -2501,3 +2501,33 @@ a:hover {
 .wrapper.style3 p {
     color: #222 !important;
 }
+/* Dark Mode Text Fixes */
+.wrapper.style2 header h2,
+.wrapper.style2 header h3,
+.wrapper.style2 header p,
+.wrapper.style3 header h2,
+.wrapper.style3 header h3,
+.wrapper.style3 header p,
+.wrapper.style4 header h2,
+.wrapper.style4 header h3,
+.wrapper.style4 header p {
+    color: #ffffff !important;
+}
+
+.wrapper.style2 .row .box.style2 p,
+.wrapper.style3 .row p,
+.wrapper.style4 .row p {
+    color: #e6e6e6 !important;
+}
+
+.wrapper.style2 h2,
+.wrapper.style3 h2,
+.wrapper.style4 h2 {
+    color: #ffffff !important;
+}
+
+.section-title,
+h2,
+h3 {
+    color: #ffffff !important;
+}
