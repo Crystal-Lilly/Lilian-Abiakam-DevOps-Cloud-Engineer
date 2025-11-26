@@ -2531,3 +2531,50 @@ h2,
 h3 {
     color: #ffffff !important;
 }
+/* FINAL DARK MODE TEXT FIX — FORCE WHITE TEXT */
+
+/* Section titles like "What I Do", "Featured Projects", etc. */
+.wrapper.style2 header h2,
+.wrapper.style3 header h2,
+.wrapper.style4 header h2 {
+    color: #ffffff !important;
+}
+
+/* Section subtitles below the titles */
+.wrapper.style2 header p,
+.wrapper.style3 header p,
+.wrapper.style4 header p {
+    color: #e6e6e6 !important;
+}
+
+/* Card headings (Cloud Engineering, Containerization, etc.) */
+.box.style2 h3,
+.box.style2 h2 {
+    color: #111 !important; /* stays dark on white cards */
+}
+
+/* Card body text inside skill cards */
+.box.style2 p {
+    color: #333 !important;
+}
+
+/* "What I Do" title which uses a special selector */
+#work h2,
+#work header h2 {
+    color: #ffffff !important;
+}
+
+/* The faint small line under "What I Do" */
+#work header p {
+    color: #dcdcdc !important;
+}
+
+/* Featured Projects Header */
+#projects h2,
+#projects header h2 {
+    color: #ffffff !important;
+}
+
+#projects header p {
+    color: #e6e6e6 !important;
+}
