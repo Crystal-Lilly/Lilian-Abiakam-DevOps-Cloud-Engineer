@@ -2606,7 +2606,7 @@ h3 {
 }
 /* Fix faint project descriptions */
 .wrapper.style3 .box.style2 p {
-    color: #222 !important;      /* darker grey */
+    color: #222222 !important;      /* darker grey */
     opacity: 1 !important;       /* remove fading */
 }
 
@@ -2618,7 +2618,7 @@ h3 {
 /* Fix project card text visibility */
 .wrapper.style1 h3,
 .wrapper.style1 p {
-    color: #0e0101 !important;
+    color: #d8d5d5 !important;
     opacity: 1 !important;
 }
 
